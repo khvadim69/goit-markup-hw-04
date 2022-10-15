@@ -1,121 +1,269 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HOMEWORK4</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-<body>
-        <header class="header-box">
-            <div class="container">
-                <div class="nav-flex-header">
-                    <nav class="nav-flex-header">
-                        <a href="./index.html" class="logo link "><span class="web">Web</span><span class="studio">Studio</span></a>
-                        <ul class="nav-flex">
-                            <li><a href="./index.html" class="link-nav link-current link">Студія</a></li>
-                            <li><a href="./portfolio.html" class="link-nav link">Портфоліо</a></li>
-                            <li><a href="" class="link-nav link">Контакт</a></li>
-                        </ul>
-                    </nav>
-                    <ul class="nav-flex-tel">
-                        <li><a href="mailto:info@devstudio.com" class="nav-contact link">info@devstudio.com</a></li>
-                        <li><a href="tel:+380961111111" class="nav-contact link">+38 096 111 11 11</a></li>
-                    </ul>
-                </div>
-                
-            </div>                
-        </header>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="header-box">
+      <div class="container">
+        <div class="nav-flex-header">
+          <nav class="nav-flex-header">
+            <a href="./index.html" class="logo link"
+              ><span class="web">Web</span><span class="studio">Studio</span></a
+            >
+            <ul class="nav-flex">
+              <li><a href="./index.html" class="link-nav link-current link">Студія</a></li>
+              <li><a href="./portfolio.html" class="link-nav link">Портфоліо</a></li>
+              <li><a href="" class="link-nav link">Контакт</a></li>
+            </ul>
+          </nav>
+          <ul class="nav-flex-tel">
+            <li>
+              <a href="mailto:info@devstudio.com" class="nav-contact link">info@devstudio.com</a>
+            </li>
+            <li><a href="tel:+380961111111" class="nav-contact link">+38 096 111 11 11</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
 
-    <main>        
-        <section class="order">
-            <div class="container">
-                <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                <button type="button" class="order-button">Замовити послугу</button> 
-            </div>              
-        </section>
-        <section class="advantage-box">
-            <div class="container">
-                <!--Чому ви обираєте нас?-->
-                <ul class="advantage-flex">
-                    <li>
-                        <h3 class="title-advantage">УВАГА ДО ДЕТАЛЕЙ</h3>
-                        <p class="advantage">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
-                    </li>
-                    <li>
-                        <h3 class="title-advantage">ПУНКТУАЛЬНІСТЬ</h3>
-                        <p class="advantage">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
-                    </li>
-                    <li>
-                        <h3 class="title-advantage">ПЛАНУВАННЯ</h3>
-                        <p class="advantage">Так само консультація з широким активом значною мірою зумовлює.</p>
-                    </li>
-                    <li>
-                        <h3 class="title-advantage">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                        <p class="advantage">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
-                    </li>
-                </ul>
+    <main>
+      <section class="order">
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="order-button">Замовити послугу</button>
+        </div>
+      </section>
+      <section class="advantage-box">
+        <div class="container">
+          <!--Чому ви обираєте нас?-->
+          <ul class="advantage-flex">
+            <li>
+              <div class="icon-adventage-box">
+                <svg class="icon-adventage" width="70" height="70">
+                  <use href="./images/icons.svg#icon-antenna"></use>
+                </svg>
+              </div>
+              <h3 class="title-advantage">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="advantage">
+                Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
+              </p>
+            </li>
+            <li>
+              <div class="icon-adventage-box">
+                <svg class="icon-adventage" width="70" height="70">
+                  <use href="./images/icons.svg#icon-clock"></use>
+                </svg>
+              </div>
+              <h3 class="title-advantage">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="advantage">
+                Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
+              </p>
+            </li>
+            <li>
+              <div class="icon-adventage-box">
+                <svg class="icon-adventage" width="70" height="70">
+                  <use href="./images/icons.svg#icon-diagram"></use>
+                </svg>
+              </div>
+              <h3 class="title-advantage">ПЛАНУВАННЯ</h3>
+              <p class="advantage">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li>
+              <div class="icon-adventage-box">
+                <svg class="icon-adventage" width="70" height="70">
+                  <use href="./images/icons.svg#icon-astronaut"></use>
+                </svg>
+              </div>
+              <h3 class="title-advantage">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="advantage">
+                Значимість цих проблем настільки очевидна, що реалізація планових завдань.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="specialization">
+        <div class="container">
+          <h2 class="specialization-title">Чим ми займаємося</h2>
+          <ul class="specialization-foto">
+            <li><img src="images/imgdesktop.jpg" alt="Для Офісу" width="370" height="294" /></li>
+            <li>
+              <img src="images/imgmobile.jpg" alt="Мобільні версії" width="370" height="294" />
+            </li>
+            <li>
+              <img src="images/imgtablet.jpg" alt="Версії для планшетів" width="370" height="294" />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="comand">
+        <div class="container">
+          <h2 class="title-comand">Наша команда</h2>
+          <ul class="comand-flex">
+            <li class="box-comand">
+              <img
+                src="images/imgIgorDemiyanenko.jpg"
+                alt="Фото Ігор Дем'яненко"
+                width="270"
+                height="260"
+              />
+              <div class="comand-name">
+                <h3 class="name">Ігор Дем'яненко</h3>
+                <p lang="en" class="profession">Product Designer</p>
+              </div>
+              <div class="icon-specialization">
+                <div class="icon-specialization-box">
+                  <svg class="" width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </div>
+                <div class="icon-specialization-box">
+                  <svg class="" width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </div>
+
+                <div class="icon-specialization-box">
+                  <svg class="" width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </div>
+
+                <div class="icon-specialization-box">
+                  <svg class="" width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </div>
+              </div>
+            </li>
+            <li class="box-comand">
+              <img
+                src="images/imgOlgaRepina.jpg"
+                alt="Фото Ольга Репіна"
+                width="270"
+                height="260"
+              />
+              <div class="comand-name">
+                <h3 class="name">Ольга Репіна</h3>
+                <p lang="en" class="profession">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="box-comand">
+              <img
+                src="images/imgNikolaiTarasov.jpg"
+                alt="Фото Микола Тарасов"
+                width="270"
+                height="260"
+              />
+              <div class="comand-name">
+                <h3 class="name">Микола Тарасов</h3>
+                <p lang="en" class="profession">Marketing</p>
+              </div>
+            </li>
+            <li class="box-comand">
+              <img
+                src="images/imgMikhailErmakov.jpg"
+                alt="Фото Михайло Єрмаков"
+                width="270"
+                height="260"
+              />
+              <div class="comand-name">
+                <h3 class="name">Михайло Єрмаков</h3>
+                <p lang="en" class="profession">UI Designer</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="clients">
+        <div class="container">
+          <h2 class="client-title">Постоянные клиенты</h2>
+          <div class="clients-icon">
+            <div class="icon-client-box">
+              <svg class="" width="106" height="60">
+                <use href="./images/icons.svg#icon-Logo-one"></use>
+              </svg>
             </div>
-        </section>
-       
-        <section class="specialization">
-            <div class="container">
-                <h2 class="specialization-title">Чим ми займаємося</h2>
-                <ul class="specialization-foto">
-                    <li><img src="images/imgdesktop.jpg" alt="Для Офісу" width="370" height="294"></li>
-                    <li><img src="images/imgmobile.jpg" alt="Мобільні версії" width="370" height="294"></li>
-                    <li><img src="images/imgtablet.jpg" alt="Версії для планшетів" width="370" height="294"></li>
-                </ul>
+            <div class="icon-client-box">
+              <svg class="" width="106" height="60">
+                <use href="./images/icons.svg#icon-Logo-two"></use>
+              </svg>
             </div>
-        </section>
-                
-        <section class="comand">
-            <div class="container">
-                    <h2 class="title-comand">Наша команда</h2>
-                    <ul class="comand-flex" >
-                        <li class="box-comand">
-                            <img src="images/imgIgorDemiyanenko.jpg" alt="Фото Ігор Дем'яненко" width="270" height="260">
-                            <div class="comand-name"><h3 class="name">Ігор Дем'яненко</h3>
-                            <p lang="en" class="profession">Product Designer</p></div>
-                        </li>
-                        <li class="box-comand">
-                            <img src="images/imgOlgaRepina.jpg" alt="Фото Ольга Репіна" width="270" height="260">
-                            <div class="comand-name"><h3 class="name">Ольга Репіна</h3>
-                            <p lang="en" class="profession">Frontend Developer</p></div>
-                        </li>
-                        <li class="box-comand">
-                            <img src="images/imgNikolaiTarasov.jpg" alt="Фото Микола Тарасов" width="270" height="260">
-                            <div class="comand-name"><h3 class="name">Микола Тарасов</h3>
-                            <p lang="en" class="profession">Marketing</p></div>
-                        </li>
-                        <li class="box-comand">
-                            <img src="images/imgMikhailErmakov.jpg" alt="Фото Михайло Єрмаков" width="270" height="260">
-                            <div class="comand-name"><h3 class="name">Михайло Єрмаков</h3>
-                            <p lang="en" class="profession">UI Designer</p></div>
-                        </li>
-                    </ul>
+            <div class="icon-client-box">
+              <svg class="" width="106" height="60">
+                <use href="./images/icons.svg#icon-Logo-three"></use>
+              </svg>
             </div>
-        </section>
-    
+            <div class="icon-client-box">
+              <svg class="" width="106" height="60">
+                <use href="./images/icons.svg#icon-Logo-four"></use>
+              </svg>
+            </div>
+            <div class="icon-client-box">
+              <svg class="" width="106" height="60">
+                <use href="./images/icons.svg#icon-Logo-five"></use>
+              </svg>
+            </div>
+            <div class="icon-client-box">
+              <svg class="" width="106" height="60">
+                <use href="./images/icons.svg#icon-Logo-six"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <footer class="footer">
-        <div class="container">
-                <a href="./index.html" class="logo-footer link"><span class="web">Web</span><span class="logo-studio-footer">Studio</span></a>
-                <address>
-                    <span class="adress">м. Київ, пр-т Лесі Українки, 26</span>
-                    <ul>
-                        <li class="link-footer"><a href="mailto:info@devstudio.com" class="contact link">info@devstudio.com</a></li>
-                        <li class="link-footer"><a href="tel:+380961111111" class="contact link">+38 096 111 11 11</a></li>
-                    </ul>
-                </address>
+      <div class="container">
+        <div class="footer-box">
+          <div class="footer-box-contact">
+            <a href="./index.html" class="logo-footer link"
+              ><span class="web">Web</span><span class="logo-studio-footer">Studio</span></a
+            >
+            <address>
+              <span class="adress">м. Київ, пр-т Лесі Українки, 26</span>
+              <ul>
+                <li class="link-footer">
+                  <a href="mailto:info@devstudio.com" class="contact link">info@devstudio.com</a>
+                </li>
+                <li class="link-footer">
+                  <a href="tel:+380961111111" class="contact link">+38 096 111 11 11</a>
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div class="footer-box-social">
+            <h3 class="justdoit">присоединяйтесь</h3>
+            <div class="cosial-icons">
+              <div class="cosial-icon-box">
+                <svg width="20" height="20">
+                  <use href="./images/icons.svg#icon-instagramfooter"></use>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div></div>
         </div>
-        
+      </div>
     </footer>
-</body>
+  </body>
 </html>
