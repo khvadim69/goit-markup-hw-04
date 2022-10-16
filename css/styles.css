@@ -47,10 +47,20 @@ li {
   display: flex;
   justify-content: space-between;
 }
-.nav-flex-tel {
-  width: 307px;
+.nav-flex-tel-mail {
   display: flex;
+  gap: 30px;  
   justify-content: space-between;
+  color: var(--color-primary);
+}
+.icon-envelope {
+  margin-right: 10px;
+  fill:var(--color-link-text);
+}
+.nav-flex-tel-mail,.nav-contact,.icon-envelope:hover,
+.nav-flex-tel-mail,.nav-contact,.icon-envelope:focus {
+  color:var(--accent-color);
+  fill:var(--color-accent) ;
 }
 .header-box {
   border-bottom: 1px solid #ececec;
@@ -84,13 +94,9 @@ li {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--color-primary);
+  
 }
-.link-nav:hover,
-.link-nav:focus {
-  fill:var(--color-accent) ;
-  color: var(--color-accent);
-}
+
 .link-icon{
   display: flex;
   align-items: center;
@@ -98,7 +104,7 @@ li {
 .link-current {
   color: var(--color-accent);
 }
-.nav-contact {
+.nav-contact {align-items: center;
   display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
