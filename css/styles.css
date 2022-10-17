@@ -335,6 +335,9 @@ li {
   align-items: center;
   border: 1px solid var(--color-portfolio-button);
   border-radius: 4px;
+  fill: var(--color-portfolio-button);
+  border: 1px solid var(--color-portfolio-button);
+
 }
 .icon-client-box:hover,
 .icon-client-box:focus {
