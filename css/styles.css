@@ -283,13 +283,14 @@ li {
   letter-spacing: 0.03em;
   color: var(--color-link-text);
   text-align: center;
+  margin-bottom: 16px;
 }
 .icon-specialization {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .icon-specialization-box {
   width: 40px;
@@ -389,7 +390,7 @@ li {
   letter-spacing: 0.03em;
   border-radius: 4px;
   background-color: var(--color-comand-section);
-  border-color: var(--color-comand-section);
+  border-color: transparent;
 }
 
 .button:hover,
@@ -460,14 +461,13 @@ li {
 }
 .footer-box {
   display: flex;
-
-  align-items: center;
+  align-items: baseline;
   gap: 70px;
 }
 .footer-box-social {
   width: 206px;
-  margin-top: 72px;
-  margin-bottom: 100px;
+  /* margin-top: 72px;
+  margin-bottom: 100px; */
 }
 .call {
   margin-bottom: 20px;
